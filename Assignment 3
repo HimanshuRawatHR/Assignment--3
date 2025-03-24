@@ -28,4 +28,3 @@ Types of headers and their purpose are mentioned below:-
 
 
 Incase these HTTP header are missing then there will be security issue, Performance issue and incorrect content delivery. 
-
