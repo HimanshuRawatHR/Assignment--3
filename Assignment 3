@@ -1,0 +1,31 @@
+HTTP Headers
+
+HTTP headers are used for transferring the data b/w client and server. It defines the metadata of request and response. Incase if the headers are missing or misconfigured then it can cause security issue/breach.
+
+Types of headers and their purpose are mentioned below:- 
+
+1 General Header 
+        - [ ] Date : Provide timestamps  of response,
+        - [ ] Connection:  Keep-a-live or close decide whether the connection will be open or closed.
+        - [ ] Cacher-Control:  It set the rules of response caching (no-cache, max-age = 3600 etc)
+
+
+
+2 Request Header
+
+        - [ ] Host: Its specify server the source of request 
+        - [ ] User-Agent: Inform about the browser or client details 
+        - [ ] Accept: Inform in which format the client will accept the content ( text / html, application/Jason)
+        - [ ] Authorization: It is used for sending credentials for authentication   
+3 Response Header
+        - [ ] Server:- Server inform about the software details ( Apache, ngnix)
+        - [ ] Set-Cookies: To set cookies of the client.
+        - [ ] Content- Type: Specify the format of the response (text / html, application/Jason)   Security Headers 
+        - [ ] Strict- Transport Security (HSTS): To convert HTTP TO HTTPS forcefully 
+        - [ ] Content-security policy (CSP): It block malicious script
+        - [ ] X-Frame option: Prevent from clickjacking attack
+        - [ ] X-Content type option: Prevent from MIME type sniffing 
+
+
+Incase these HTTP header are missing then there will be security issue, Performance issue and incorrect content delivery. 
+
